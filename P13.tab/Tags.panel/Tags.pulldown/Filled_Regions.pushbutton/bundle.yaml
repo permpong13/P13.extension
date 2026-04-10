@@ -1,0 +1,16 @@
+title: "Filled Regions\n& List"
+
+tooltip: |
+  สร้าง Legend ของ Filled Region ทั้งหมดในโปรเจกต์แบบอัตโนมัติ:
+    • สแกน Filled Region Types ทั้งหมดในโปรเจกต์
+    • ให้ผู้ใช้เลือก Text Style สำหรับป้ายกำกับ
+    • ผู้ใช้กำหนดขนาดกล่อง (Width, Height) และระยะห่างระหว่างแถว (Spacing)
+    • เลือกตำแหน่งจุดเริ่มต้นบน View
+    • สคริปต์จะสร้างรายการดังนี้:
+        - Filled Region (รูปสี่เหลี่ยม)
+        - Text Note แสดงชื่อของ Pattern
+        - จัดเรียงรายการลงล่างทีละแถวอย่างเป็นระเบียบ
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Auto-generate a complete Filled Region legend with name labels and spacing control."
+

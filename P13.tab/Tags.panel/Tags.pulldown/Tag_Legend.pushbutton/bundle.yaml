@@ -1,0 +1,19 @@
+title: "Tags\nLegend"
+
+tooltip: |
+  สคริปต์นี้ใช้สำหรับสร้างข้อความกำกับ (Tag Text) ให้กับ Legend Components  
+  โดยผู้ใช้สามารถเลือกพารามิเตอร์ที่ต้องการแสดงได้อย่างอิสระ
+    ความสามารถหลัก:
+    • เลือกพารามิเตอร์ที่ต้องการแสดงจาก Family Type  
+    • รองรับหลายพารามิเตอร์ในครั้งเดียว  
+    • เลือกตำแหน่งการวางข้อความ:
+        - Top / Bottom
+        - Left / Centre / Right  
+    • เลือก Text Style ได้  
+    • รองรับตัวเลือก “แสดงชื่อพารามิเตอร์” หรือ “แสดงเฉพาะค่า”  
+    • จัดตำแหน่ง TextNote ใกล้องค์ประกอบใน Legend โดยอัตโนมัติ  
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Tag legend components by selecting parameters and placement options."
+

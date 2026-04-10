@@ -1,0 +1,20 @@
+title: "Pipes Flow\nDirections"
+
+tooltip: |
+  สร้างสัญลักษณ์ลูกศรบอกทิศทางการไหลบนท่อทั้งหมดใน Plan View  
+  รองรับการเลือก Family / Type สำหรับลูกศร และกำหนดระยะห่างระหว่างลูกศรเองได้
+    ฟีเจอร์หลัก:
+    • รองรับ SMART Flow Detection:
+        - วิเคราะห์จาก Slope
+        - ระดับความสูง (Elevation)
+        - การเชื่อมต่อ (Connectors)
+        - ประเภทระบบท่อ (MEP System)
+        - Neighbor Pipes รอบข้าง
+    • กำหนดระยะวางลูกศรเป็นเมตร (Auto Convert to Feet)
+    • เลือก Family/Type ของ Detail Items เพื่อใช้เป็นลูกศร
+    • วางลูกศรตามความยาวท่อแบบอัตโนมัติ
+    • หมุนลูกศรให้ตรงกับทิศทางการไหลจริง
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Generate pipe flow direction arrows with rule-based SMART flow analysis and automatic placement."
+

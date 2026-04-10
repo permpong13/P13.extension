@@ -1,0 +1,13 @@
+title: "Numbering\nby Select"
+
+tooltip: |
+  เครื่องมือสำหรับกำหนดหมายเลขใหม่ให้กับองค์ประกอบตามที่ผู้ใช้เลือก
+  - รองรับทุกหมวดหมู่หลัก (ประตู, หน้าต่าง, โครงสร้าง, ผนัง, พื้น, ฯลฯ)
+  - พิมพ์ชื่อ Parameter เองได้ (Mark, Type Mark, Comments, Shared Parameter ฯลฯ)
+  - กำหนด Prefix, จำนวนหลัก, และเริ่มต้นได้เอง
+  - ป้องกันหมายเลขซ้ำโดยอัตโนมัติ
+  - ใช้กับองค์ประกอบทั้ง Instance และ Type Parameter
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Manual re-numbering tool for user-selected elements with custom parameter support (Shared / Built‑in / Instance / Type)."

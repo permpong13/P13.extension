@@ -1,0 +1,24 @@
+title: "Pipe\nAutoTag"
+
+tooltip: |
+  สร้าง Pipe Tag อัตโนมัติสำหรับทุกท่อในมุมมองปัจจุบัน  
+  รองรับหลายโหมดการเลือกท่อ และมีระบบจัดตำแหน่งแท็กอัจฉริยะ
+    ความสามารถหลัก:
+    • Tag ท่อแบบอัตโนมัติในมุมมองที่ใช้งานอยู่
+    • เลือกโหมดการทำงานได้:
+        - Tag ท่อทั้งหมด
+        - Tag เฉพาะท่อที่มองเห็น (Visible Only)
+        - เลือกด้วยมือ (Manual Pick)
+        - เลือกจากรายการ (Select From List)
+    • ระบบวางตำแหน่งแท็กอัตโนมัติ:
+        - จัดกลุ่ม (Grouping)
+        - จัดแถว (Row alignment)
+        - Auto-split tiers เพื่อกันแท็กทับกัน
+        - ปรับตำแหน่งตามมุมมองและทิศทางท่อ
+    • ตรวจสอบ Existing Tags เพื่อหลีกเลี่ยงการแท็กซ้ำ
+    • รองรับทั้ง Plan, Section, Elevation, และ 3D View
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Automatic pipe tagging with smart grouping, spacing, collision-avoidance, and multiple selection modes."
+

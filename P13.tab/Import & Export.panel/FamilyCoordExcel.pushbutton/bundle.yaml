@@ -1,0 +1,19 @@
+title: "Family Co\nfrom Excel"
+
+tooltip: |
+  คำสั่งนี้ใช้เพื่อ:
+    • อ่านพิกัด Easting/Northing (เมตร) จากไฟล์ Excel
+    • แปลงพิกัด Survey → Revit Internal Coordinates
+      โดยอ้างอิง:
+        - Project Base Point
+        - Project Rotation (True North Angle)
+    • ให้ผู้ใช้เลือก Base Level (ใช้เป็นระดับ 0.00 สำหรับ Offset)
+    • ให้ผู้ใช้เลือก Structural Family (Column / Foundation) และ Type
+    • สร้างโครงสร้าง (Structural Columns หรือ Structural Foundations)
+      ตามตำแหน่งพิกัดจาก Excel
+    • ตั้งค่า Height Offset จากค่า Pile Cut Off (ถ้ามีข้อมูลใน Excel)
+
+
+author: "เพิ่มพงษ์ ทวีกุล | P13"
+description: "Import structural coordinates from Excel and place families with level and offset settings."
+

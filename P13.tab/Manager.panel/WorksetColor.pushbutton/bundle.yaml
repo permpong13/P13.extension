@@ -1,0 +1,18 @@
+title: "Color-by\nWorkset"
+
+tooltip: |
+  เครื่องมือช่วยแสดงผล Workset ขั้นสูง (โหมดสายรุ้ง และ โหมดเน้นเฉพาะจุด)
+  - Rainbow Mode: เปลี่ยนสีทุก Workset ให้แตกต่างกันอัตโนมัติเพื่อให้แยกแยะง่าย
+  - Focus Mode: เน้นสีเฉพาะ Workset ที่เลือก และปรับรายการอื่นให้เป็นสีจาง (Halftone)
+  - Reset View: ล้างค่าการตั้งค่าสีทั้งหมดเพื่อกลับสู่สถานะปกติของมุมมอง
+
+author: "เพิ่มพงษ์ ทวีกุล | P13"
+description: |
+  Advanced Revit family and type management utility featuring:
+  - Direct Grid Editing: Rename types directly in the data grid.
+  - Favorites System: Bookmark frequently used families for quick access.
+  - Live Preview: High-resolution image tooltips on hover.
+  - Batch Operations: Rename, Prefix/Suffix, Duplicate, and Parameter editing.
+  - Usage Analytics: Track instance counts, identify unused types, and filter in-place or nested families.
+  - Export Tools: Export data to Excel and generate Type Catalogs.
+  - Auto-Settings: Remembers previous export paths and user preferences.

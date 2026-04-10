@@ -1,0 +1,12 @@
+title: "Sheets\nby Excel"
+
+tooltip: |
+    สร้าง Sheet จำนวนมากอัตโนมัติจาก Clipboard
+        วิธีใช้งาน:
+    1. ใน Excel: ลากคลุมข้อมูล (Number และ Name) แล้วกด Copy
+    2. ใน Revit: กดปุ่มนี้
+    3. ระบบจะอ่านข้อมูลและให้เลือก Titleblock เพื่อสร้างทันที
+
+author: "เพิ่มพงษ์ ทวีกุล | P13"
+description: "Sheets from Excel"
+

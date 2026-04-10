@@ -1,0 +1,20 @@
+title: "Detail Items\nfrom CSV"
+
+tooltip: |
+  คำสั่งนี้ใช้เพื่อ:
+    • อ่านไฟล์ CSV ที่มีข้อมูลพิกัด Easting/Northing (เมตร)
+    • แปลงพิกัด Survey → Revit Coordinates (ฟุต)
+      โดยอ้างอิง:
+        - Project Base Point
+        - True North Angle (Project Rotation)
+        - Project Base Point Offset
+    • สร้าง Detail Items อัตโนมัติใน Plan View
+    • ตั้งค่าพารามิเตอร์ให้แต่ละจุด:
+        - Mark
+        - Comments
+        - Survey_E
+        - Survey_N
+
+
+author: "เพิ่มพงษ์ ทวีกุล | P13"
+description: "Import CSV coordinates and place detail items by converting Survey E/N to Revit coordinates."

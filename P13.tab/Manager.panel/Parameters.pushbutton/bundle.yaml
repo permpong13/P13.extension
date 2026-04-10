@@ -1,0 +1,23 @@
+# bundle.yaml
+title: "Parameter\nManager"
+
+tooltip: |
+  จัดการ Project Parameters อย่างครบวงจร (Export, Import, ลบ, รายงาน)
+  
+  📤 Export JSON: ส่งออก Parameter ที่เลือกเป็นไฟล์ JSON (รองรับ Instance/Type, หมวดหมู่, ชนิดข้อมูล)
+  📥 Import JSON: นำเข้า Parameter จากไฟล์ JSON กลับสู่โปรเจกต์ (พร้อมตรวจสอบ GUID และ Category)
+  🗑️ ลบแบบเลือกเอง: เลือก Parameter ใดก็ได้ พร้อมพยายามลบ (Force Delete) แม้ระบบจะบอกว่า "ถูกใช้งาน"
+  🧹 ลบที่ไม่ใช้งาน: ค้นหา Parameter ที่ไม่มีค่าจริงในโมเดล (อิงจาก Element และ Type) และให้เลือกลบ
+  📊 รายงานสรุป: แสดงสถิติ (ทั้งหมด/ใช้งาน/ไม่ใช้งาน/Instance/Shared) และรายชื่อ พร้อมส่งออกเป็นไฟล์ .txt ได้
+  🔍 ดูรายละเอียด: แสดงชนิด, Group, Binding, หมวดหมู่, สถานะ Shared/InUse ของ Parameter ที่เลือก
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+
+description: |
+  เครื่องมือแบบ All‑in‑One สำหรับ Project Parameters และ Shared Parameters
+  - รองรับ Revit 2024, 2025, 2026 (ForgeTypeId + SpecTypeId)
+  - ตรวจสอบการใช้งาน Parameter อย่างแม่นยำ (สุ่มตัวอย่าง Element + ElementType หลายร้อยรายการ)
+  - พยายามลบ Parameter ได้แม้เป็น Shared (API จะแจ้งสาเหตุหากไม่สำเร็จ)
+  - ไม่เปิด Output Console ของ pyRevit ทุกฟังก์ชันใช้ forms.alert() ทั้งหมด
+  - จดจำโฟลเดอร์ล่าสุดสำหรับ Import/Export อัตโนมัติ
+  - ทำงานภายใต้ Transaction ที่ปลอดภัย ยกเลิกได้หากเกิดข้อผิดพลาด

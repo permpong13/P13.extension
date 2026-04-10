@@ -1,0 +1,19 @@
+title: "Family\nManager"
+
+tooltip: |
+  เครื่องมือจัดการ Family และ Type ระดับสูง (Ultimate Edition)
+  - แก้ไขชื่อได้โดยตรงเหมือนใช้งาน Excel
+  - ระบบ Favorites สำหรับปักหมุด Family ที่ใช้งานบ่อย (★)
+  - แสดงรูปตัวอย่าง (Preview) ขนาดใหญ่เมื่อวางเมาส์เหนือรายการ
+  - ระบบกรองข้อมูลขั้นสูงและคำสั่งจัดการแบบกลุ่ม (Batch Actions)
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: |
+  Advanced Revit family and type management utility featuring:
+  - Direct Grid Editing: Rename types directly in the data grid.
+  - Favorites System: Bookmark frequently used families for quick access.
+  - Live Preview: High-resolution image tooltips on hover.
+  - Batch Operations: Rename, Prefix/Suffix, Duplicate, and Parameter editing.
+  - Usage Analytics: Track instance counts, identify unused types, and filter in-place or nested families.
+  - Export Tools: Export data to Excel and generate Type Catalogs.
+  - Auto-Settings: Remembers previous export paths and user preferences.

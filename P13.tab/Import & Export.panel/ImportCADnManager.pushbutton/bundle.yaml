@@ -1,0 +1,21 @@
+title: "ImportCAD\nManager"
+
+tooltip: |
+  คำสั่งนี้ใช้เพื่อ:
+    • ค้นหา CAD ตามชื่อ, View, หรือ Path
+    • เปิดไปยัง View ที่มีการเชื่อมโยง CAD นั้น (Jump to View)
+    • ทำงานกับ CAD ได้หลายแบบ:
+        - Explode ทีละตัว
+        - Explode เฉพาะรายการที่เลือก
+        - Explode ทั้งหมด
+        - Delete ทีละตัว
+        - Delete เฉพาะที่เลือก
+        - Delete ทั้งหมด
+    • Refresh รายการ CAD ได้ทันที
+    • ระบบค้นหาแบบ Real-Time Filter
+    • UI แบบ DataGrid ใช้งานง่ายและรวดเร็ว
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Manage, filter, locate, explode, and remove imported CAD files through a powerful DataGrid UI."
+

@@ -1,0 +1,12 @@
+title: "Move\nto N/E"
+
+tooltip: |
+  คำสั่งนี้ใช้เพื่อ:
+    • ย้าย (Move) องค์ประกอบที่เลือก (Family / Element)
+      ไปยังพิกัด Northing (N) และ Easting (E)
+    • หน่วยที่ใช้: เมตร (m)
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Move selected elements to specific Northing/Easting coordinates in meters."
+

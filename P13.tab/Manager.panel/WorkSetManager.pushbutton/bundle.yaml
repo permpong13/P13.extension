@@ -1,0 +1,15 @@
+title: "WorkSets\nManager"
+
+tooltip: |
+  เครื่องมือจัดการ WorkSets ขั้นสูง ช่วยให้ตรวจสอบ ค้นหา ลบ
+    แสดง Worksets ทั้งหมด ในแท็บต่างๆ
+    สร้าง Workset ใหม่
+    ลบ Workset (เฉพาะ Workset ว่างเท่านั้น)
+    เปลี่ยนชื่อ Workset
+    แสดงสถิติ Worksets
+    ส่งออกรายการ เป็นไฟล์ text
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Advanced WorkSet Manager tools"
+

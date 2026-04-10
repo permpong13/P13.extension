@@ -1,0 +1,10 @@
+title: "Model\nCheck"
+
+tooltip: |
+  ตรวจสอบสุขภาพโมเดล Revit สำหรับงาน QA/QC
+  รวมถึงการตรวจสอบก่อนส่งงาน (Pre-submission Checking)
+
+
+author: "เพิ่มพงษ์ ทวีกุล | P13"
+description: "Revit model health check tool for QA/QC and pre-submission validation."
+

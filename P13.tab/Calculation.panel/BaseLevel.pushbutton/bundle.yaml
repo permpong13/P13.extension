@@ -1,0 +1,17 @@
+title: "Base_Level\nParameter"
+
+tooltip: |
+  “Base_Level Parameter” คือคำสั่ง pyRevit สำหรับตั้งค่า Parameter
+  ชื่อ ‘Base_Level’ ขององค์ประกอบทั้งหมด โดยใช้ค่า Elevation
+  ของ Level ที่องค์ประกอบนั้นวางอยู่เป็นตัวอ้างอิง
+    ฟังก์ชันหลัก:
+    • ตรวจจับ Level ขององค์ประกอบแต่ละตัว
+    • อ่านค่า Elevation ของ Level (ฟุต → เมตร ถ้าต้องการ)
+    • ตั้งค่าลงใน Parameter ‘Base_Level’ อัตโนมัติ
+    • รองรับหลาย Category พร้อมกัน
+    • เหมาะสำหรับงานกำกับโครงสร้างและงานสำรวจ
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Set the ‘Base_Level’ parameter for elements based on their host Level elevation."
+

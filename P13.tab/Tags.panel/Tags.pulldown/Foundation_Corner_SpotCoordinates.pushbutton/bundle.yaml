@@ -1,0 +1,16 @@
+title: "F-Corner\nCoordinates"
+
+tooltip: |
+  สร้างพิกัดมุมฐานราก (Northing/Easting) อัตโนมัติ  
+  พร้อม TextNote + Leader แบบ 45° และระบบจัดตำแหน่งกันทับอย่างชาญฉลาด
+    ความสามารถหลัก:
+    • คำนวณพิกัด N/E ตาม Project Base Point (หน่วยเมตร)
+    • รองรับ Project Rotation และ Offset
+    • ตรวจหามุมฐานรากด้วย Convex Hull อัตโนมัติ
+    • วาง TextNote พร้อมแสดงทศนิยม 3 ตำแหน่ง
+    • สร้าง Leader แบบ 45° + ปรับความยาวอัตโนมัติเพื่อกันซ้อน
+    • Smart Offset ป้องกัน TextNote ทับกัน
+    • เหมาะสำหรับงานสำรวจ, as-built, และงานโครงสร้างฐานราก
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Auto-generate foundation corner N/E coordinates with smart offsets and 45° leaders."

@@ -1,0 +1,10 @@
+title: "AutoDesk\nCheck Server"
+
+tooltip: |
+  pyRevit Script สำหรับตรวจสอบสถานะเซิร์ฟเวอร์ของ Autodesk
+  เพื่อดูว่า Online / Offline / Timeout
+
+
+author: "เพิ่มพงษ์ ทวีกุล | P13"
+description: "pyRevit tool for checking Autodesk server status (online/offline)."
+

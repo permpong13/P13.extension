@@ -1,0 +1,21 @@
+title: "S-Filter"
+
+tooltip: |
+  เครื่องมือกรองวัตถุขั้นสุดยอด (Ultimate Filter) สำหรับ Revit พร้อมระบบ AI และ UX ระดับสูง
+  
+  ฟังก์ชันหลัก (อัปเกรดใหม่):
+  • 🔀 Custom Grouping: จัดกลุ่ม Tree View ตามหมวดหมู่, ชั้น (Level), หรือ Workset ได้อิสระ
+  • 🧠 Rule-Based Filter: กรอง Parameter ด้วยเงื่อนไขคณิตศาสตร์ (>, <, =, Contains)
+  • 🎨 Highlight Tool: สาดสีเหลืองสะท้อนแสงใส่วัตถุเพื่อการตรวจสอบที่ง่ายขึ้น
+  • ⏳ Loading UX: แสดงสัญลักษณ์กำลังโหลดข้อมูลแบบลื่นไหล
+  • 🔗 Link Support: รองรับการกวาดข้อมูลจากไฟล์โมเดล Link
+  • 💾 Memory: บันทึกและเรียกคืนชุดวัตถุข้ามการทำงานได้
+  
+  การใช้งาน:
+  1. กดรันสคริปต์ S-Filter
+  2. เลือกแหล่งข้อมูลและรูปแบบการจัดกลุ่ม (ด้านขวา)
+  3. ติ๊กเลือกวัตถุ หรือพิมพ์ค้นหาแล้วกด Enter
+  4. ใช้ปุ่ม Action ด้านล่าง (Select / Isolate / Highlight / Hide)
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Ultimate Revit element filter with Custom Grouping, Rule-based Parameters, Highlighting, and Memory features."

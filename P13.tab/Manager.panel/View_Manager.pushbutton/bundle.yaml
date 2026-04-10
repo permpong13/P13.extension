@@ -1,0 +1,23 @@
+title: "View\nManager"
+
+tooltip: |
+  เครื่องมือจัดการ View ขั้นสูง (Advanced Filter Edition) 
+  ช่วยให้ตรวจสอบ ค้นหา และจัดการ View ในโครงการขนาดใหญ่ได้อย่างรวดเร็ว
+  รองรับการทำงานบน Revit 2026 (.NET 8) ได้อย่างเสถียร
+
+  ⭐ ฟังก์ชันหลัก:
+  • Advanced Filtering System:
+      - กรองตามสถานะ (Orphan Views / All Views)
+      - กรองตามสาขางาน (Discipline) และ Phase ของโครงการ
+      - กรองตามระดับรายละเอียด (Detail Level: Coarse/Medium/Fine)
+  • Real-time Search: ค้นหาชื่อ View แบบแสดงผลทันทีที่พิมพ์
+  • Batch Operations:
+      - เลือกหลายรายการพร้อมกันเพื่อ ลบ, ใส่ Prefix หรือเปลี่ยนชื่อ
+      - Rename ด้วย Pattern รันตัวเลขอัตโนมัติ {n}
+  • Smart Export & Memory:
+      - ส่งออกรายงานเป็น .txt
+      - จดจำ Folder Path ล่าสุดที่เคยใช้งาน (ไม่ต้องเลือกใหม่ทุกครั้ง)
+  • Quality Control: เช็คชื่อซ้ำ, แสดงสถิติ View ทั้งโครงการ
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Advanced view manager with multi-logic filters, batch tools, and persistent export settings for BIM workflows."

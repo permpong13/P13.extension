@@ -1,0 +1,24 @@
+title: "SuperSheet\nExporter"
+
+tooltip: |
+  เครื่องมือส่งออกแบบแปลนระดับมืออาชีพ - ส่งออกแบบแปลนหลายรูปแบบพร้อมตั้งชื่อไฟล์อัจฉริยะ
+  ▸ รองรับ PDF / DWG / IFC / NWC
+  ▸ ตั้งชื่อไฟล์แบบกำหนดเองด้วยโทเคนพารามิเตอร์
+  ▸ ระบบ Profile สำหรับบันทึกการตั้งค่าใช้ซ้ำ
+  ▸ รวมหลายชีตเป็นไฟล์ PDF เดียว (Combine PDF)
+  ▸ ตัวเลือกขั้นสูงสำหรับ PDF: View links in blue, Hide ref/worksets, Hide unreferenced view tags, Hide scope boxes, Hide crop boundaries, Replace halftone, Region edges mask
+  ▸ สร้างโฟลเดอร์อัตโนมัติและรายงาน Excel
+  ▸ กรองแบบแปลนด้วย Sheet Set และเลือกเป็นชุด
+  ▸ โหลด Profile แบบเงียบ ไม่มี Pop-up ถาม
+  ▸ แสดงชื่อไฟล์ล่วงหน้าแบบ Real-time
+  ▸ ตัวเลือก PDF สีหรือขาวดำ
+  
+    วิธีใช้งาน
+  1. วางไฟล์ทั้งหมดในโฟลเดอร์เดียวกัน
+  2. ตรวจสอบว่า Revit มีสิทธิ์ในการส่งออก
+  3. ตั้งค่าพาธปลายทางที่มีสิทธิ์เขียนไฟล์
+  4. สำหรับประสิทธิภาพสูงสุด ปิดโปรแกรมอื่นขณะส่งออกแบบชุดใหญ่
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "SuperSheet Exporter"
+

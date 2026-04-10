@@ -1,0 +1,18 @@
+title: "Family Co\nfrom CSV"
+
+tooltip: |
+  คำสั่งนี้ใช้เพื่อ:
+    • อ่านพิกัด Easting/Northing (เมตร) จากไฟล์ CSV
+    • แปลงพิกัด Survey → Revit Internal Coordinates
+      โดยอ้างอิง:
+        - Project Base Point
+        - Project Rotation (True North Angle)
+    • ให้ผู้ใช้เลือก Base Level (ใช้เป็นระดับ 0.00 สำหรับ Offset)
+    • ให้ผู้ใช้เลือก Structural Family (Column / Foundation) และ Type
+    • สร้าง Family (Column / Foundation) ตามพิกัดจาก CSV
+    • ตั้งค่า Height Offset อัตโนมัติจากค่า Pile Cut Off (ถ้ามีข้อมูลใน CSV)
+
+
+author: "เพิ่มพงษ์ ทวีกุล | P13"
+description: "Import CSV survey coordinates and place structural families with level/offset control."
+

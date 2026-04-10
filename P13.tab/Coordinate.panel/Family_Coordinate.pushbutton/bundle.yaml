@@ -1,0 +1,16 @@
+title: "Family\ncoordinates"
+
+tooltip: |
+  คำสั่งนี้ใช้เพื่อ:
+    • คำนวณพิกัดของ Family Instances เป็นค่าพิกัดจริง N / E (หน่วยเมตร)
+    • อ้างอิงตำแหน่งจาก Project Base Point
+    • รองรับมุมการหมุนของโครงการ (Project Angle)
+    • ใช้สูตรคำนวณพิกัดแบบหมุน + ชดเชย (Rotation + Base Point Offset)
+    • บันทึกค่าพิกัดลงในพารามิเตอร์:
+        - N_Coordinate
+        - E_Coordinate
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Calculate real-world N/E coordinates for family instances based on PBP and project rotation."
+

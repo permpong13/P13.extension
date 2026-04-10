@@ -1,0 +1,17 @@
+title: "Numbering\nCategory"
+
+tooltip: |
+  เครื่องมือสำหรับกำหนดหมายเลข (Numbering) ให้กับ Family หรือ Elements 
+  ตามหมวดหมู่ (Category) ภายในโปรเจกต์ Revit
+    ความสามารถหลัก:
+    • เลือก Category ที่ต้องการ numbering
+    • กำหนดรูปแบบเลขลำดับ (Prefix / Running Number)
+    • รองรับการกำหนดค่าทีละตัวหรือเป็นชุด (Batch Numbering)
+    • ป้องกันหมายเลขซ้ำ (Duplicate Checking)
+    • ทำงานร่วมกับพารามิเตอร์ Mark, Comments 
+      หรือพารามิเตอร์ใดก็ได้ที่ผู้ใช้เลือก
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: "Numbering tool for assigning sequential IDs to elements by category with duplicate checking."
+

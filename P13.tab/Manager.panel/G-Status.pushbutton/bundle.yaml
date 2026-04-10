@@ -1,0 +1,19 @@
+title: "G-Element\nStatus"
+
+tooltip: |
+  เครื่องมือจัดการสถานะองค์ประกอบ (g_Element Status) 
+  รองรับ Revit 2024 - 2026 อย่างเต็มรูปแบบ
+  
+  ฟังก์ชันเด่น:
+  • Smart Scanning: ตรวจสอบองค์ประกอบที่มองเห็นใน Active View ตามหมวดหมู่ (Categories) ที่กำหนดมากกว่า 60 ประเภท
+  • Workset Grouping: แสดงรายการแยกตาม Workset และค่าสถานะปัจจุบัน เพื่อความแม่นยำในการเลือกอัปเดต
+  • Parameter Auto-Config: ระบบตรวจสอบและช่วยสร้าง/เพิ่มหมวดหมู่ (Categories) ให้กับ Shared Parameter โดยอัตโนมัติ
+  • Multi-Type Support: รองรับ Parameter ทั้งรูปแบบตัวเลข (Integer/Double) และข้อความ (String)
+  • UI Dashboard: หน้าต่างจัดการที่ระบุคำนิยามสถานะ (0-2) ไว้อย่างชัดเจน พร้อมระบบ Select Highlight เพื่อความรวดเร็ว
+
+
+author: "เพิ่มพงษ์ ทวีกุล (P13)"
+description: |
+  อัปเดตค่าพารามิเตอร์ g_Element Status สำหรับองค์ประกอบในมุมมองปัจจุบัน 
+  โดยมีการแบ่งกลุ่มข้อมูลตาม Workset และค่าเดิมที่พบ 
+  (Compatible with .NET 8 / Revit 2026 API)
